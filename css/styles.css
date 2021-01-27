@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+  position: fixed;
+  top: 5%;
+  left: 2.5%;
+}
+
+*, *::before, *::after {
+  margin:10px;
+  border-radius: 25px;
+  box-sizing: inherit;
+}
+
+.calculator {
+  border: 2.5px solid #f80;
+}
+
+.calculator-screen {
+  font-size: 450%;
+  text-align: right;
+  border-radius:25px;
+  width:98%;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+button {
+  border-radius: 10px;
+  font-size: 2rem;
+  background-color: rgba(127,127,255,.3);
+}
+
+button:hover {
+  background-color: rgba(127,127,255,.6);
+} 
+
+.operator {
+  background-color: rgba(127,127,0,.3);
+}
+.operator:hover {
+  background-color: rgba(127,127,0,.6);
+}
+
+.all-clear {
+  background-color: rgba(0,127,255,.3);
+  grid-area: 1 / 5 / 1 / 6;
+}
+.all-clear:hover {
+  background-color: rgba(0,127,255,.6);
+}
+
+.plus-sign{
+  grid-area: 1 / 1 / 1 / 2;
+}
+
+.minus-sign{
+  grid-area: 1 / 2 / 1 / 3;
+}
+
+.mult-sign{
+  grid-area: 1 / 3 / 1 / 4 ;
+}
+
+.div-sign{
+  grid-area: 1 / 4 / 1 / 5 ;
+}
+
+.decimal{
+  grid-area: 5 / 1 / 5 / 6;
+}
+
+.equal-sign {
+  background-color: rgba(255,127,0,.3);
+  grid-area: 6 / 1 / 6 / 6;
+}
+
+.equal-sign:hover {
+  background-color: rgba(255,127,0,.6);
+}
+
+.calculator-keys {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top:0px;
+}
