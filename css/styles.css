@@ -12,6 +12,7 @@ html {
 
 .calculator {
   border: 0.5dvmin solid #f80;
+  height: 100%;
 }
 
 .calculator-screen {
