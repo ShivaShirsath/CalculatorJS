@@ -1,32 +1,31 @@
 html {
   box-sizing: border-box;
   position: fixed;
-  top: 5%;
-  left: 2.5%;
+  inset: 2.5dvmin;
 }
 
 *, *::before, *::after {
-  margin:10px;
-  border-radius: 25px;
+  margin: 1dvmin;
+  border-radius: 1dvmin;
   box-sizing: inherit;
 }
 
 .calculator {
-  border: 2.5px solid #f80;
+  border: 0.5dvmin solid #f80;
 }
 
 .calculator-screen {
-  font-size: 450%;
+  font-size: 2.5dvmin;
   text-align: right;
-  border-radius:25px;
-  width:98%;
+  border-radius: 2.5dvmin;
+  width: 98%;
   padding-right: 2%;
   padding-left: 2%;
 }
 
 button {
-  border-radius: 10px;
-  font-size: 2rem;
+  border-radius: 1.5dvmin;
+  font-size: 2dvmin;
   background-color: rgba(127,127,255,.3);
 }
 
@@ -81,5 +80,5 @@ button:hover {
 .calculator-keys {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  margin-top:0px;
+  margin-top: 0;
 }
