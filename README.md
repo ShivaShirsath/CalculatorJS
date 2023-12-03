@@ -1,1 +1,5 @@
-<a href=https://shivashirsath.github.io/CalculatorJS><h1 align=center>ぷ</h1></a>
+<h1 align=center>
+  <a href=https://shivashirsath.github.io/CalculatorJS>
+ぷ
+  </a>
+</h1>
